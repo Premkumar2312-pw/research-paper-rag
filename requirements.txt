@@ -1,0 +1,9 @@
+streamlit>=1.36
+PyMuPDF>=1.24
+pytesseract>=0.3.10
+Pillow>=10.3
+sentence-transformers>=3.0
+chromadb>=0.5
+groq>=0.9
+python-dotenv>=1.0
+pytest>=8.0

@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local vector database and uploaded paper cache
+chroma_db/
+data/papers/*
+!data/papers/.gitkeep
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/
+*.log
