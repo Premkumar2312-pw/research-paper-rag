@@ -1,0 +1,33 @@
+# Secrets
+.env
+backend/.env
+frontend/.env
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local vector database and uploaded paper cache
+backend/chroma_db/
+backend/data/papers/*
+!backend/data/papers/.gitkeep
+
+# Node / frontend build output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/
+*.log

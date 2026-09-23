@@ -1,0 +1,43 @@
+{
+  "_instructions": [
+    "This file is a manually-editable evaluation set for measuring retrieval",
+    "and answer quality. Edit it yourself once you have real uploaded papers.",
+    "",
+    "For each question:",
+    "  - 'expected_filename' must exactly match a filename you've uploaded/processed.",
+    "  - 'expected_locations' should list the page/slide/section label(s) (as they",
+    "    appear in the app's citations, e.g. 'Page 3') where the answer is found.",
+    "  - 'expected_key_facts' is a short list of facts a correct answer must contain,",
+    "    for you to manually check off when reviewing the generated answer.",
+    "",
+    "This is NOT auto-generated ground truth -- you verify these by reading the",
+    "paper yourself. That manual verification is what makes the resulting",
+    "metrics defensible in your report/viva.",
+    "",
+    "Run the evaluation with:",
+    "    cd backend && python scripts/run_evaluation.py"
+  ],
+  "test_cases": [
+    {
+      "id": "q1",
+      "question": "What is the title of the paper?",
+      "expected_filename": "example_paper.pdf",
+      "expected_locations": ["Page 1"],
+      "expected_key_facts": ["Replace with the paper's actual title"]
+    },
+    {
+      "id": "q2",
+      "question": "What dataset was used?",
+      "expected_filename": "example_paper.pdf",
+      "expected_locations": ["Page 3"],
+      "expected_key_facts": ["Replace with the actual dataset name(s)"]
+    },
+    {
+      "id": "q3",
+      "question": "What methodology was proposed?",
+      "expected_filename": "example_paper.pdf",
+      "expected_locations": ["Page 2", "Page 3"],
+      "expected_key_facts": ["Replace with the key methodology terms"]
+    }
+  ]
+}
